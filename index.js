@@ -1,5 +1,5 @@
 updateCount = document.getElementById("count")
-// saveCount = document.getElementById("Prev")
+
 
 
 let val = 0
@@ -10,14 +10,10 @@ function Click() {
     
 }
 
-/*function Save() {
+function Reset() {
 
-    
-    let savedClick = val + " , "
-    saveCount.textContent += savedClick
-    console.log(val)
     updateCount.textContent = 0
     val=0
 
 }
-*/
+
